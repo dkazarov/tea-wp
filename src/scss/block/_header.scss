@@ -12,11 +12,14 @@
 	padding: 20px 0;
 	width: 100%;
 	user-select: none;
+	font-family: 'OpenSans-Regular', sans-serif;
+	font-size: 18px;
 }
 
 .logo {
 	position: relative;
 	z-index: 1;
+	cursor: pointer;
 }
 
 header nav ul {
@@ -35,9 +38,37 @@ header nav a {
 }
 
 .action {
-	width: 200px;
+	display: flex;
+	align-items: center;
 	height: 50px;
 }
+.action__left {
+	display: flex;
+	align-items: center;
+}
+.action__left a {
+	margin-right: 20px;
+}
+.action__right input {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	border-radius: 15px;
+	padding: 4px;
+	width: 180px;
+
+	&::placeholder {
+		padding-left: 10px;
+	}
+	
+	&:focus {
+		padding-left: 12px;
+	}
+}
+.action button {
+	cursor: pointer;
+}
+
 .burger {
 	display: none;
 }
