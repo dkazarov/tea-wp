@@ -1,6 +1,41 @@
 @font-face {
-	font-family: 'Ubuntu';
-	src: url('../assets/fonts/Ubuntu-Regular.woff2') format('woff2');
+	font-family: 'OpenSans-Regular';
+	src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('../assets/fonts/OpenSans-Light.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'OpenSans-LightItalic';
+	src: url('../assets/fonts/OpenSans-LightItalic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'OpenSans-SemiBold';
+	src: url('../assets/fonts/OpenSans-SemiBold.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cormorant-Regular';
+	src: url('../assets/fonts/Cormorant-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cormorant-LightItalic';
+	src: url('../assets/fonts/Cormorant-LightItalic.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
