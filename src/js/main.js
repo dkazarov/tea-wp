@@ -1,12 +1,8 @@
 import { burgerOpen, burgerClose } from './js-components/burger';
+import { search } from './js-components/search';
 
-const inputSearch = document.querySelector('#search-input');
-
-const search = document.querySelector('#search-btn').addEventListener('click', () => {
-	inputSearch.classList.toggle('max-w-180');
-});
-
+// Search
 search();
-
+// Burger
 burgerOpen();
 burgerClose();
