@@ -42,29 +42,38 @@ header nav a {
 	align-items: center;
 	height: 50px;
 }
+
 .action__left {
 	display: flex;
 	align-items: center;
 }
+
 .action__left a {
 	margin-right: 20px;
+
+	&:last-child {
+		margin-right: 90px;
+	}
 }
+
 .action__right input {
 	display: flex;
 	align-items: center;
-	margin-right: 20px;
-	border-radius: 15px;
 	padding: 4px;
-	width: 180px;
+	max-width: 0;
+	outline: none;
+	border: none;
+	transition: max-width 0.3s ease-in-out;
 
 	&::placeholder {
 		padding-left: 10px;
 	}
-	
+
 	&:focus {
 		padding-left: 12px;
 	}
 }
+
 .action button {
 	cursor: pointer;
 }
