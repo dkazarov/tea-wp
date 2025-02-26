@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "1.0.1",
 	"type": "module",
-	"homepage": "https://dkazarov.github.io/____.git",
+	"homepage": "https://github.com/dkazarov/tea-wp.git",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
@@ -21,6 +21,7 @@
 		"postcss": "^8.5.2",
 		"sass-embedded": "^1.83.4",
 		"sharp": "^0.33.5",
+		"svgo": "^3.3.2",
 		"vite": "^6.1.0",
 		"vite-plugin-compression": "^0.5.1",
 		"vite-plugin-image-optimizer": "^1.1.8"
