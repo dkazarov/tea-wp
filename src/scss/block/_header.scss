@@ -134,6 +134,10 @@ header nav a {
 		margin-bottom: 25px;
 	}
 
+	#search__input {
+		padding: 0;
+	}
+
 	.burger {
 		display: block;
 		z-index: 100 !important;
@@ -161,7 +165,7 @@ header nav a {
 	.action__right input {
 		padding: 0;
 	}
-	#search__btn {
+	#search__btn, #search__input {
 		display: none;
 	}
 }
